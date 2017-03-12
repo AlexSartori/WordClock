@@ -1,0 +1,22 @@
+.wc-clock-frame {
+    display: inline-block;
+    border: 4px outset #aaa;
+    box-shadow: 3px 3px 9px #333;
+}
+.wc-clock-panel {
+    padding: 14px;
+    padding-right: 0px; /* -> letter-spacing */
+    border: 1px solid #444;
+    box-shadow: 1px 1px 6px #333 inset;
+    background-color: #666; /* -> text-color */
+    font-family: monospace;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 14px; /* -> padding */
+    color: #666; /* -> background-color */
+    text-shadow: -2px -2px 1px #111;
+}
+.wc-clock-label-active {
+    color: #ddf;
+    text-shadow: 2px 2px 2px #111;
+}
