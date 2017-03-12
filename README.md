@@ -1,6 +1,8 @@
 # Word Clock JQuery plugin
 
-[![Demo image](img_demo.png)]
+![Demo image](img_demo.png)
+
+### --> [Live Demo](https://alexsartori.github.io/WordClock/) <--
 
 ## Instructions:
 
