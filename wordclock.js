@@ -6,7 +6,7 @@ $.fn.wordClock = function() {
             </div>\
         </div>');
 
-    var h_labels = [$('#wc-one'), $('#wc-two'), $('#wc-three'), $('#wc-four'), $('#wc-hfive'), $('#wc-six'), $('#wc-seven'), $('#wc-eight'), $('#wc-nine'), $('#wc-tenh'), $('#wc-eleven'), $('#wc-twelve')]
+    var h_labels = [$('#wc-one'), $('#wc-two'), $('#wc-three'), $('#wc-four'), $('#wc-fiveh'), $('#wc-six'), $('#wc-seven'), $('#wc-eight'), $('#wc-nine'), $('#wc-tenh'), $('#wc-eleven'), $('#wc-twelve')]
 
     function update_time() {
         $('.wc-clock-label-active').removeClass('wc-clock-label-active');
