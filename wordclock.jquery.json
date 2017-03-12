@@ -10,7 +10,7 @@
         "letter-board",
         "text-clock"
     ],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": {
         "name": "Alex Sartori",
         "url": "https://alexsartori.github.io"
@@ -30,6 +30,7 @@
     ],
     "bugs": "https://github.com/AlexSartori/WordClock/issues",
     "homepage": "https://github.com/AlexSartori/WordClock#readme",
+    "download": "https://github.com/AlexSartori/WordClock/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
     }
