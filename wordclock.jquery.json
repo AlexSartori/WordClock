@@ -1,0 +1,36 @@
+{
+    "name": "wordclock",
+    "title": "Word Clock",
+    "description": "A clock with time written in popped-up words on a letter board.",
+    "keywords": [
+        "clock",
+        "wordclock",
+        "time-to-text",
+        "written-time",
+        "letter-board",
+        "text-clock"
+    ],
+    "version": "1.0.2",
+    "author": {
+        "name": "Alex Sartori",
+        "url": "https://alexsartori.github.io"
+    },
+    "maintainers": [
+        {
+            "name": "Alex Sartori",
+            "email": "alessandro.sartori@linuxmail.org",
+            "url": "https://alexsartori.github.io"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/AlexSartori/WordClock/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/AlexSartori/WordClock/issues",
+    "homepage": "https://github.com/AlexSartori/WordClock#readme",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
