@@ -21,8 +21,6 @@ $.fn.wordClock = function() {
             else { $('#wc-to').addClass('wc-clock-label-active'); h++; }
         }
 
-        h_labels[h-1].addClass('wc-clock-label-active');
-
              if (m <= 3)  $('#wc-oclock').addClass('wc-clock-label-active');
         else if (m <= 8)  $('#wc-fivem').addClass('wc-clock-label-active');
         else if (m <= 13) $('#wc-tenm').addClass('wc-clock-label-active');
@@ -35,7 +33,9 @@ $.fn.wordClock = function() {
         else if (m <= 48) $('#wc-quarter').addClass('wc-clock-label-active');
         else if (m <= 52) $('#wc-tenm').addClass('wc-clock-label-active');
         else if (m <= 57) $('#wc-fivem').addClass('wc-clock-label-active');
-        else if (m <= 60) $('#wc-oclock').addClass('wc-clock-label-active');
+        else if (m <= 60) { $('#wc-oclock').addClass('wc-clock-label-active'); h++; }
+
+        h_labels[h-1].addClass('wc-clock-label-active');
 
     }
 
