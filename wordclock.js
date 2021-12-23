@@ -13,7 +13,7 @@ $.fn.wordClock = function() {
         $('#wc-it').addClass('wc-clock-label-active');
         $('#wc-is').addClass('wc-clock-label-active');
 
-        var h = new Date().getHours() % 13;
+        var h = (new Date().getHours() - 1) % 12 + 1;
         var m = new Date().getMinutes();
 
         if (m <= 57 && m > 3) {
